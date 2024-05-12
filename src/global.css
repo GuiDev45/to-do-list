@@ -1,3 +1,39 @@
-h1 {
-  color: red;
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+/* Estilos gerais */
+:root {
+  /* Cores fontes*/
+  --primary-color: #FAFAFA;
+  --secondary-color: #737373;
+
+  /* Cores Backgrounds */
+  --bg-primary-color: #131314;
+
+  /* Cores icones */
+  --icon-red: #FF1212;
+  --icon-green: #04D06E;
+
+  /* Cores inputs */
+  --input-fill: #212121;
+  --input-stroke: #797979;
+  --input-icon: #FAFAFA;
+
+  /* Cores hr */
+  --hr-color: #3A3A3B;
+
+  /* Tamanhos de fonte */
+  --tittle-font-size: 96px;
+  --list-font-size: 24px;
+  --status-font-size: 20px;
+
+  /* Peso de fontes */
+  --weight-small: 300;
+  --weight-medium: 400;
+  --weight-bold: 700;
+
+  /* Fontes */
+  --font-family-primary: 'Annie Use Your Telescope';
+  --font-family-secondary: 'Roboto';
+  --font-family-geral: 'sans-serif';
 }
